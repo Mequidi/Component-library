@@ -50,9 +50,38 @@ hr{
     display: inline;
     padding: 0rem 0.5rem;
 }
-/* header */
 
-.header{
-    text-decoration: none;
+/* Navigations */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+/* header */
+
+.hero{
+    
+}
+
+.hero .hero-image{
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: auto;
+}
