@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root{
-    --primary-color:#00BFA6
+    --primary-color:#00BFA6;
+    --dark-gray:#9CA3AF;
+    --off-white: #D1D5DB;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -76,12 +78,33 @@ hr{
 /* header */
 
 .hero{
-    
+    padding: 2rem;
 }
 
 .hero .hero-image{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 400px;
+    /* max-height: 200px; */
     display: block;
     margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--dark-gray);
+    padding-top: 2rem;
+   text-align: center;
+}
+.hero .hero-heading .heading-inverted{
+    color:var(--primary-color);
+}
+
+/* @sections */
+
+.section{
+    padding: 2rem
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color:var(--off-white);
 }
