@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root{
-    --primary-color:#00BFA6;
-    --dark-gray:#9CA3AF;
+    --primary-color:#DC2626;
+    --dark-gray:#374151;
     --off-white: #D1D5DB;
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 
 hr{
     margin: 2rem 0rem;
+}
+
+.md_margin{
+    margin: 2rem;
 }
 
 /* containers */
@@ -21,11 +26,12 @@ hr{
 
 .center-container{
     margin: auto;
-    max-width: 700px;
+    max-width: 600px;
 }
 
 /* links */
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 0.5rem;
 }
@@ -59,7 +65,7 @@ hr{
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .nav-brand{
@@ -115,7 +121,7 @@ hr{
     color: white;
     text-align: center;
     padding: 1rem 1rem;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
 
 }
 
