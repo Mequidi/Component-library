@@ -124,6 +124,10 @@ hr{
     /* border-radius: 1rem; */
 
 }
+.footer .footer-header{
+    display:bold;
+
+}
 
 .footer .link{
     color: white;
