@@ -137,3 +137,13 @@ hr{
     color: white;
 }
 
+.project-image{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.project-text{
+    text-align: center;
+}
